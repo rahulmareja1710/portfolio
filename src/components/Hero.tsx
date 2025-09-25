@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const Hero = () => {
   return (
@@ -19,6 +21,14 @@ const Hero = () => {
           <Badge className="mb-6 bg-accent/20 text-accent-foreground border-accent/30 hover:bg-accent/30 text-sm font-medium px-4 py-2">
             Pre-Placement Offer from Robylon AI
           </Badge>
+          
+          {/* Profile Photo */}
+          <div className="mb-8">
+            <Avatar className="w-32 h-32 mx-auto border-4 border-accent/30 shadow-custom-glow">
+              <AvatarImage src={profilePhoto} alt="Rahul Mareja Profile" className="object-cover" />
+              <AvatarFallback className="text-4xl font-semibold bg-accent/10 text-accent-light">RM</AvatarFallback>
+            </Avatar>
+          </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="block">Rahul Mareja</span>
