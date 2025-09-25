@@ -37,12 +37,11 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Securing roles in Data Science, Product, and Analyst domains with a strong academic record from IIT Guwahati. 
-            Major achievements in Inter IIT Tech Meets and leadership as Overall Coordinator of Finance and Economics Club.
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+            Transforming data into insights, products into experiences.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="bg-accent hover:bg-accent-light text-accent-foreground font-semibold px-8 py-3 shadow-custom-lg transition-smooth">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
@@ -50,40 +49,6 @@ const Hero = () => {
             <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-3 transition-smooth">
               View My Work
             </Button>
-          </div>
-          
-          {/* Contact Info */}
-          <div className="flex flex-wrap items-center justify-center gap-6 text-white/80 text-sm">
-            <div className="flex items-center gap-2">
-              <Phone className="h-4 w-4" />
-              <span>+91-7973494747</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail className="h-4 w-4" />
-              <span>r.mareja@iitg.ac.in</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="h-4 w-4" />
-              <span>IIT Guwahati • Roll No. 220106062</span>
-            </div>
-          </div>
-          
-          {/* Social Links */}
-          <div className="flex items-center justify-center gap-4 mt-8">
-            <Button size="sm" variant="ghost" className="text-white hover:text-accent-light hover:bg-white/10 p-3 rounded-full transition-smooth">
-              <Linkedin className="h-5 w-5" />
-            </Button>
-            <Button size="sm" variant="ghost" className="text-white hover:text-accent-light hover:bg-white/10 p-3 rounded-full transition-smooth">
-              <Github className="h-5 w-5" />
-            </Button>
-          </div>
-        </div>
-        
-        {/* CGPA Badge */}
-        <div className="absolute bottom-8 right-8 animate-fade-in-up animate-delay-500 hidden lg:block">
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
-            <div className="text-2xl font-bold text-white">7.38</div>
-            <div className="text-sm text-white/80">Current CGPA</div>
           </div>
         </div>
       </div>
