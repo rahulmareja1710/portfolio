@@ -31,7 +31,7 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="block">Rahul Mareja</span>
             <span className="block text-2xl sm:text-3xl lg:text-4xl font-medium text-accent-light mt-2">
-              Data Scientist | Product Analyst | IIT Guwahati B.Tech
+              Product Manager | Data Scientist | Product Analyst | IIT Guwahati B.Tech
             </span>
           </h1>
           
